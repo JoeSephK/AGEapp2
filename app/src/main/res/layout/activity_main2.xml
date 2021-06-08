@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:elevation="4dp"
+    android:background="@color/deeppink"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/plain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="416dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="75dp"
+        android:background="@color/white"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="ENTER DOB"
+
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDOB"
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="59dp"
+        android:background="@color/red"
+        android:text="SHOW DOB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDOB"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDOB"
+        android:layout_width="361dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="49dp"
+        android:background="@color/white"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDOB" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
